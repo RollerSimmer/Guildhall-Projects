@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Binaries">
+      <UniqueIdentifier>{72dedbdb-8ad9-4072-b13e-f061dfc6fa6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{339da926-6320-4775-8a5f-ec3ffb7c87eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main_Win32.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedObstacle.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Bumper.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedObstacle.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Bumper.hpp" />
+    <ClInclude Include="Wall.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Run_Win32\Pachinko.exe">
+      <Filter>Binaries</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\Docs\readme.txt">
+      <Filter>Docs</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
